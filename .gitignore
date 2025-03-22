@@ -1,5 +1,6 @@
 # Ignorisanje kompajliranih izvršnih fajlova
 MSMS
+unit_tests/coverage/cmd_line
 *.out
 *.o
 
@@ -10,3 +11,8 @@ MSMS
 
 # Ignorisanje HTML izveštaja generisanih od strane LCOV-a
 out/
+
+
+# Ignorisanje build foldera unutar unit_tests
+unit_tests/build/
+unit_tests/build/*
