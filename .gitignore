@@ -1,0 +1,12 @@
+# Ignorisanje kompajliranih izvršnih fajlova
+MSMS
+*.out
+*.o
+
+# Ignorisanje LCOV izveštaja
+*.gcno
+*.gcda
+*.gcov
+
+# Ignorisanje HTML izveštaja generisanih od strane LCOV-a
+out/
