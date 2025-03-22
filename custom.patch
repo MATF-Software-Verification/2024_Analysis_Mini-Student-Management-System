@@ -1,0 +1,41 @@
+diff --git a/Makefile b/Makefile
+new file mode 100644
+index 0000000..231e2c3
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,7 @@
++CXXFLAGS := -g -std=c++11 -Wno-format
++CXX := g++
++
++MSMS: main.cpp
++	$(CXX) -o MSMS main.cpp src/*.cpp -I include ${CXXFLAGS} 
++clean:
++	rm -f MSMS
+diff --git a/src/interface.cpp b/src/interface.cpp
+index d19e6b9..5fc92db 100644
+--- a/src/interface.cpp
++++ b/src/interface.cpp
+@@ -64,12 +64,22 @@ namespace Interface
+ {
+     void clrscr()
+     {
++    #ifdef _WIN32
+         system("cls");
++    #else
++        system("clear");
++    #endif
+     }
+ 
+     void pause()
+     {
+-        system("pause");
++    #ifndef UNIT_TESTING        
++        #ifdef _WIN32
++            system("pause");
++        #else
++            system("read -p \"Press Enter to continue...\" dummy");
++        #endif
++    #endif
+     }
+ 
+     void print_note (const multitype& note,

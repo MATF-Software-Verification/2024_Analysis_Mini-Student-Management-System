@@ -1,0 +1,1938 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.20250319171827' (creator: callgrind-3.22.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 45838534
+Trigger: Program termination
+Profiled target:  ../../Mini-Student-Management-System/MSMS (PID 9860, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                   
+--------------------------------------------------------------------------------
+246,158,275 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                   file:function
+--------------------------------------------------------------------------------
+64,097,518 (26.04%)  ./malloc/./malloc/malloc.c:_int_malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+37,472,595 (15.22%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+32,157,602 (13.06%)  ./string/../sysdeps/x86_64/multiarch/strcmp-avx2.S:__strcmp_avx2 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+24,767,424 (10.06%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+20,293,471 ( 8.24%)  ./malloc/./malloc/malloc.c:malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 8,844,860 ( 3.59%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(Csv::multitype const&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 6,639,074 ( 2.70%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 5,992,672 ( 2.43%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 5,787,252 ( 2.35%)  ./string/../sysdeps/x86_64/multiarch/strlen-avx2.S:__strlen_avx2 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 3,663,161 ( 1.49%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::push_back(Csv::multitype const&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 3,143,592 ( 1.28%)  ???:0x000000000010a4c0 [???]
+ 1,871,056 ( 0.76%)  ./malloc/./malloc/malloc.c:alloc_perturb [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 1,491,414 ( 0.61%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 1,405,329 ( 0.57%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::strict_equal(Csv::multitype const&) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 1,392,632 ( 0.57%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::type() const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 1,348,592 ( 0.55%)  ???:operator new(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33]
+ 1,178,436 ( 0.48%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 1,168,505 ( 0.47%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::copy() const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+ 1,035,300 ( 0.42%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::init() [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   936,223 ( 0.38%)  ./malloc/./malloc/arena.c:malloc
+   858,000 ( 0.35%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::iter::iter() [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   849,548 ( 0.35%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   810,722 ( 0.33%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   801,710 ( 0.33%)  ???:0x000000000010a330 [???]
+   775,174 ( 0.31%)  ???:0x000000000010a4a0 [???]
+   738,943 ( 0.30%)  ./libio/./libio/fileops.c:_IO_file_xsputn@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   657,104 ( 0.27%)  ./stdio-common/./stdio-common/vfprintf-internal.c:__printf_buffer [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   641,520 ( 0.26%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   615,952 ( 0.25%)  ./stdio-common/./stdio-common/vfprintf-process-arg.c:__printf_buffer
+   612,300 ( 0.25%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   562,077 ( 0.23%)  ???:std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33]
+   562,041 ( 0.23%)  ./libio/./libio/iofwrite.c:fwrite [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   552,174 ( 0.22%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   542,154 ( 0.22%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   499,517 ( 0.20%)  ./elf/./elf/dl-lookup.c:do_lookup_x [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+   489,668 ( 0.20%)  ./elf/../sysdeps/generic/dl-new-hash.h:_dl_lookup_symbol_x
+   485,813 ( 0.20%)  ./stdio-common/./stdio-common/Xprintf_buffer_write.c:__printf_buffer_write [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   431,698 ( 0.18%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   426,030 ( 0.17%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::list(int) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   357,223 ( 0.15%)  ???:std::ostream::sentry::sentry(std::ostream&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33]
+   266,360 ( 0.11%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   263,948 ( 0.11%)  ./string/../sysdeps/x86_64/multiarch/strchr-avx2.S:__strchrnul_avx2 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   240,363 ( 0.10%)  ./malloc/./malloc/malloc.c:_int_free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   234,319 ( 0.10%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::push_back(char const&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   211,480 ( 0.09%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   200,656 ( 0.08%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_int() const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   197,220 ( 0.08%)  ???:std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33]
+   185,946 ( 0.08%)  ./elf/./elf/dl-lookup.c:_dl_lookup_symbol_x [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+   185,653 ( 0.08%)  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:__mempcpy_avx_unaligned_erms [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   168,581 ( 0.07%)  ???:0x00000000048f7210 [???]
+   167,679 ( 0.07%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   166,922 ( 0.07%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   166,327 ( 0.07%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::csv_read_char() [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   162,267 ( 0.07%)  ./libio/./libio/fileops.c:_IO_do_write@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   158,875 ( 0.06%)  ./libio/./libio/vsnprintf.c:__vsnprintf_internal [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   156,576 ( 0.06%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   153,985 ( 0.06%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:Interface::select_menu::print_menu_and_wait(bool, std::ostream&) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   153,848 ( 0.06%)  ???:0x000000000010a420 [???]
+   151,013 ( 0.06%)  ???:std::ostream::flush() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33]
+   150,234 ( 0.06%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::pop_front() [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   148,456 ( 0.06%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::filter(bool (*)(Csv::multitype, Csv::list<Csv::multitype>, Csv::table)) const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   147,900 ( 0.06%)  ./libio/./libio/libioP.h:fwrite
+   147,128 ( 0.06%)  ./elf/./elf/dl-reloc.c:_dl_relocate_object [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+   135,794 ( 0.06%)  ./libio/./libio/fileops.c:_IO_file_overflow@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   133,250 ( 0.05%)  ./stdio-common/./stdio-common/snprintf.c:snprintf [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   129,427 ( 0.05%)  ./stdio-common/./stdio-common/_itoa.c:_itoa_word [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   120,441 ( 0.05%)  ./stdio-common/./stdio-common/Xprintf_buffer_done.c:__printf_buffer_done [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   119,196 ( 0.05%)  ./malloc/./malloc/malloc.c:free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   118,492 ( 0.05%)  ???:std::ostream::put(char) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33]
+   117,960 ( 0.05%)  ./libio/./libio/iofflush.c:fflush [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   113,687 ( 0.05%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:Interface::print_table(Csv::table const&, Csv::multitype const&, bool, bool, bool, std::ostream&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   113,134 ( 0.05%)  ./elf/./elf/dl-lookup.c:check_match [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+   113,126 ( 0.05%)  ./libio/./libio/fileops.c:_IO_file_write@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+   112,239 ( 0.05%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::read_and_terminate(char) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+   111,640 ( 0.05%)  ./elf/../sysdeps/x86_64/dl-machine.h:_dl_relocate_object
+   110,648 ( 0.04%)  ./elf/./elf/do-rel.h:_dl_relocate_object
+   100,418 ( 0.04%)  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:__memcpy_avx_unaligned_erms [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    92,290 ( 0.04%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::empty() const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+    90,681 ( 0.04%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::append(Csv::multitype const&) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+    86,824 ( 0.04%)  ./libio/./libio/getc.c:getc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    84,308 ( 0.03%)  ./libio/./libio/fileops.c:_IO_file_sync@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    73,282 ( 0.03%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+    70,837 ( 0.03%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::csv_export_pchar() [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+    67,162 ( 0.03%)  ./string/../sysdeps/x86_64/multiarch/../multiarch/strcmp-sse2.S:strcmp [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    62,734 ( 0.03%)  /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::write_and_terminate(char) [/home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/MSMS]
+    61,939 ( 0.03%)  ./libio/./libio/putc.c:putc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    61,907 ( 0.03%)  ./stdio-common/./stdio-common/printf-parse.h:__printf_buffer
+    60,658 ( 0.02%)  ./stdio-common/./stdio-common/vfprintf-internal.c:__vfprintf_internal [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    59,166 ( 0.02%)  ???:__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::xsputn(char const*, long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33]
+    58,980 ( 0.02%)  ./libio/./libio/libioP.h:fflush
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp
+--------------------------------------------------------------------------------
+Ir              
+
+-- line 24 ----------------------------------------
+     .                   }
+     .               }
+     .               else
+     .                   in.setstate(std::ios_base::failbit);
+     .               return in;
+     .           }
+     .           
+     .           std::ostream& operator<< (std::ostream& out, const Csv::multitype& e)
+17,658 ( 0.01%)  {
+23,544 ( 0.01%)      return out << e.to_str();
+1,144,061 ( 0.46%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (2,943x)
+922,973 ( 0.37%)  => ???:0x000000000010a400 (2,943x)
+ 5,886 ( 0.00%)  }
+     .           
+     .           void readline (std::istream& in, Csv::multitype& e)
+ 2,420 ( 0.00%)  {
+     .               // flush the buffer
+   726 ( 0.00%)      in.sync();
+95,570 ( 0.04%)  => ???:0x000000000010a430 (242x)
+     .           
+     .               char c;
+   968 ( 0.00%)      Csv::list<char> buf;
+57,596 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::list(int) (242x)
+   726 ( 0.00%)      e.init();
+80,586 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::init() (242x)
+     .               while (true)
+     .               {
+ 3,725 ( 0.00%)          in.get(c);
+244,960 ( 0.10%)  => ???:0x000000000010a4b0 (745x)
+ 2,235 ( 0.00%)          if (c == '\n')
+   242 ( 0.00%)              break;
+ 1,509 ( 0.00%)          if (c == '\r')
+     .                       continue;
+ 3,018 ( 0.00%)          buf.push_back(c);
+131,462 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::push_back(char const&) (503x)
+     .               }
+     .           
+     .               // write to string
+   242 ( 0.00%)      int i = 0;
+ 1,936 ( 0.00%)      char *str = new char[buf.size() + 1];
+50,420 ( 0.02%)  => ???:0x000000000010a2e0 (242x)
+ 1,936 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::size() const (242x)
+ 1,694 ( 0.00%)      str[buf.size()] = '\0';
+ 1,936 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::size() const (242x)
+ 4,712 ( 0.00%)      while (!buf.empty())
+ 8,195 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::empty() const (745x)
+ 5,030 ( 0.00%)          str[i++] = buf.pop_front();
+75,655 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::pop_front() (503x)
+ 1,210 ( 0.00%)      e.assign(str);
+93,042 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) (242x)
+ 1,694 ( 0.00%)  }
+     .           
+     .           namespace Interface
+     .           {
+     .               void clrscr()
+   792 ( 0.00%)      {
+     .               #ifdef _WIN32
+     .                   system("cls");
+     .               #else
+   792 ( 0.00%)          system("clear");
+259,248 ( 0.11%)  => ???:0x000000000010a3d0 (264x)
+     .               #endif
+   792 ( 0.00%)      }
+     .           
+     .               void pause()
+   201 ( 0.00%)      {
+     .               #ifndef UNIT_TESTING        
+     .                   #ifdef _WIN32
+     .                       system("pause");
+     .                   #else
+   201 ( 0.00%)              system("read -p \"Press Enter to continue...\" dummy");
+65,794 ( 0.03%)  => ???:0x000000000010a3d0 (67x)
+     .                   #endif
+     .               #endif
+   201 ( 0.00%)      }
+     .           
+     .               void print_note (const multitype& note,
+     .                                const multitype& note_head,
+     .                                bool _clrscr,
+     .                                std::ostream& out)
+   351 ( 0.00%)      {
+    78 ( 0.00%)          if (_clrscr)
+    39 ( 0.00%)              clrscr();
+38,649 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:Interface::clrscr() (39x)
+   780 ( 0.00%)          out << "[ NOTE: " << note_head << " ]" << std::endl
+16,926 ( 0.01%)  => ???:0x000000000010a440 (39x)
+20,535 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (39x)
+23,127 ( 0.01%)  => ???:0x000000000010a400 (78x)
+   312 ( 0.00%)              << "____" << std::endl
+16,926 ( 0.01%)  => ???:0x000000000010a440 (39x)
+11,349 ( 0.00%)  => ???:0x000000000010a400 (39x)
+   195 ( 0.00%)              << std::endl
+16,926 ( 0.01%)  => ???:0x000000000010a440 (39x)
+   351 ( 0.00%)              << note << std::endl
+16,926 ( 0.01%)  => ???:0x000000000010a440 (39x)
+25,770 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (39x)
+   312 ( 0.00%)              << "____" << std::endl
+16,926 ( 0.01%)  => ???:0x000000000010a440 (39x)
+11,349 ( 0.00%)  => ???:0x000000000010a400 (39x)
+   156 ( 0.00%)              << std::endl;
+16,926 ( 0.01%)  => ???:0x000000000010a440 (39x)
+   117 ( 0.00%)      }
+     .           
+     .               void print_table (const table& tabl,
+     .                                 const multitype& tabl_head,
+     .                                 bool _nocolumn,
+     .                                 bool _vertical,
+     .                                 bool _clrscr,
+     .                                 std::ostream& out)
+   544 ( 0.00%)      {
+    64 ( 0.00%)          if (_clrscr)
+    32 ( 0.00%)              clrscr();
+31,712 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:Interface::clrscr() (32x)
+   640 ( 0.00%)          out << "[ VIEWING: " << tabl_head << " ]" << std::endl
+19,456 ( 0.01%)  => ???:0x000000000010a400 (64x)
+18,064 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (32x)
+13,888 ( 0.01%)  => ???:0x000000000010a440 (32x)
+   256 ( 0.00%)              << "____" << std::endl
+ 9,312 ( 0.00%)  => ???:0x000000000010a400 (32x)
+13,888 ( 0.01%)  => ???:0x000000000010a440 (32x)
+   128 ( 0.00%)              << std::endl;
+13,888 ( 0.01%)  => ???:0x000000000010a440 (32x)
+     .           
+   128 ( 0.00%)          list<int> maxl;
+ 7,616 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::list(int) (32x)
+   288 ( 0.00%)          int Ncols = tabl.get_keys().size(),
+366,794 ( 0.15%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (32x)
+   256 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (32x)
+   128 ( 0.00%)              Nrows = tabl.num_rows();
+   256 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (32x)
+   192 ( 0.00%)          maxl.push_back(2);
+ 7,776 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::push_back(int const&) (32x)
+   648 ( 0.00%)          for (int i = 0; i < Ncols; ++i)
+ 2,440 ( 0.00%)              maxl.push_back(strlen(tabl.get_keys().at(i).to_str()));
+2,205,911 ( 0.90%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (122x)
+23,540 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (122x)
+10,710 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (122x)
+ 1,954 ( 0.00%)  => ???:0x000000000010a330 (122x)
+32,677 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::push_back(int const&) (122x)
+   492 ( 0.00%)          for (int i = 0; i < Nrows; ++i)
+     .                   {
+ 2,407 ( 0.00%)              maxl.at(0) = Max(maxl.at(0), (int)strlen(multitype(i + 1).to_str()));
+61,586 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (83x)
+11,454 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (249x)
+ 1,328 ( 0.00%)  => ???:0x000000000010a330 (83x)
+25,149 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(int) (83x)
+ 2,039 ( 0.00%)              for (int j = 0; j < Ncols; ++j)
+17,041 ( 0.01%)                  maxl.at(j + 1) = Max(maxl.at(j + 1), (int)strlen(tabl.get_row(i).at(j).to_str()));
+8,635,856 ( 3.51%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) const (495x)
+94,842 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (495x)
+115,230 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (1,129x)
+42,417 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (495x)
+ 7,924 ( 0.00%)  => ???:0x000000000010a330 (495x)
+     .                   }
+     .           
+     .                   // write
+    64 ( 0.00%)          if (Nrows > 0)
+     .                   {
+    48 ( 0.00%)              if (_vertical)
+     .                       {
+    42 ( 0.00%)                  if (_nocolumn)
+     .                           {
+    75 ( 0.00%)                      out << "No  ";
+ 4,365 ( 0.00%)  => ???:0x000000000010a400 (15x)
+   180 ( 0.00%)                      for (int i = 0; i < maxl.at(0) - 2; ++i)
+   690 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (15x)
+     .                                   out << " ";
+     .                           }
+   517 ( 0.00%)                  for (int i = 0; i < Ncols; ++i)
+     .                           {
+ 1,545 ( 0.00%)                      multitype e = tabl.get_keys().at(i);
+1,888,519 ( 0.77%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (103x)
+109,857 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (103x)
+ 9,097 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (103x)
+ 1,030 ( 0.00%)                      out << e << "  ";
+29,252 ( 0.01%)  => ???:0x000000000010a400 (103x)
+53,183 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (103x)
+ 5,663 ( 0.00%)                      for (int j = 0; j < maxl.at(i + 1) - (int)strlen(e.to_str()); ++j)
+53,696 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (278x)
+25,668 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (278x)
+ 4,448 ( 0.00%)  => ???:0x000000000010a330 (278x)
+   875 ( 0.00%)                          out << " ";
+48,475 ( 0.02%)  => ???:0x000000000010a400 (175x)
+     .                           }
+   105 ( 0.00%)                  out << std::endl;
+ 9,114 ( 0.00%)  => ???:0x000000000010a440 (21x)
+    42 ( 0.00%)                  if (_nocolumn)
+     .                           {
+   465 ( 0.00%)                      for (int i = 0; i < maxl.at(0); ++i)
+ 2,070 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (45x)
+   150 ( 0.00%)                          out << "-";
+ 8,310 ( 0.00%)  => ???:0x000000000010a400 (30x)
+    75 ( 0.00%)                      out << "  ";
+ 4,260 ( 0.00%)  => ???:0x000000000010a400 (15x)
+     .                           }
+   517 ( 0.00%)                  for (int i = 0; i < Ncols; ++i)
+     .                           {
+12,691 ( 0.01%)                      for (int j = 0; j < maxl.at(i + 1); ++j)
+103,710 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (1,049x)
+ 4,730 ( 0.00%)                          out << "-";
+262,042 ( 0.11%)  => ???:0x000000000010a400 (946x)
+   515 ( 0.00%)                      out << "  ";
+29,252 ( 0.01%)  => ???:0x000000000010a400 (103x)
+     .                           }
+   105 ( 0.00%)                  out << std::endl;
+ 9,114 ( 0.00%)  => ???:0x000000000010a440 (21x)
+   446 ( 0.00%)                  for (int i = 0; i < Nrows; ++i)
+     .                           {
+   160 ( 0.00%)                      if (_nocolumn)
+     .                               {
+   360 ( 0.00%)                          multitype e = i + 1;
+18,180 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(int) (60x)
+   600 ( 0.00%)                          out << e << "  ";
+17,040 ( 0.01%)  => ???:0x000000000010a400 (60x)
+62,165 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (60x)
+ 2,220 ( 0.00%)                          for (int j = 0; j < maxl.at(0) - (int)strlen(e.to_str()); ++j)
+89,170 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (120x)
+ 5,520 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (120x)
+ 1,922 ( 0.00%)  => ???:0x000000000010a330 (120x)
+   300 ( 0.00%)                              out << " ";
+16,620 ( 0.01%)  => ???:0x000000000010a400 (60x)
+     .                               }
+ 1,980 ( 0.00%)                      for (int j = 0; j < Ncols; ++j)
+     .                               {
+ 6,715 ( 0.00%)                          multitype e = tabl.get_row(i).at(j);
+6,963,663 ( 2.83%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) const (395x)
+413,426 ( 0.17%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (395x)
+34,389 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (395x)
+ 3,950 ( 0.00%)                          out << e << "  ";
+112,180 ( 0.05%)  => ???:0x000000000010a400 (395x)
+200,687 ( 0.08%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (395x)
+31,475 ( 0.01%)                          for (int k = 0; k < maxl.at(j + 1) - (int)strlen(e.to_str()); ++k)
+298,488 ( 0.12%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (1,554x)
+167,356 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<int>::at(int) (1,554x)
+24,886 ( 0.01%)  => ???:0x000000000010a330 (1,554x)
+ 5,795 ( 0.00%)                              out << " ";
+321,043 ( 0.13%)  => ???:0x000000000010a400 (1,159x)
+     .                               }
+   400 ( 0.00%)                      out << std::endl;
+34,720 ( 0.01%)  => ???:0x000000000010a440 (80x)
+     .                           }
+     .                       }
+     .                       else
+     .                       {
+    12 ( 0.00%)                  int cols_maxl = _nocolumn ? 2 : 0;
+    59 ( 0.00%)                  for (int i = 0; i < Ncols; ++i)
+   240 ( 0.00%)                      cols_maxl = Max(cols_maxl, (int)strlen(tabl.get_keys().at(i).to_str()));
+165,453 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (14x)
+ 2,660 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (14x)
+   930 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (14x)
+   224 ( 0.00%)  => ???:0x000000000010a330 (14x)
+    30 ( 0.00%)                  for (int i = 0; i < Nrows; ++i)
+     .                           {
+     6 ( 0.00%)                      if (_nocolumn)
+     .                               {
+     .                                   out << "  No  ";
+     .                                   for (int j = 0; j < cols_maxl - 2; ++j)
+     .                                       out << " ";
+     .                                   out << (i + 1) << std::endl;
+     .                               }
+    59 ( 0.00%)                      for (int j = 0; j < Ncols; ++j)
+     .                               {
+   165 ( 0.00%)                          multitype e = tabl.get_keys().at(j);
+132,863 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (11x)
+11,499 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (11x)
+   789 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (11x)
+   165 ( 0.00%)                          out << "  " << e << "  ";
+ 6,248 ( 0.00%)  => ???:0x000000000010a400 (22x)
+ 5,582 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (11x)
+   544 ( 0.00%)                          for (int j = 0; j < cols_maxl - (int)strlen(e.to_str()); ++j)
+ 7,790 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (41x)
+   656 ( 0.00%)  => ???:0x000000000010a330 (41x)
+   150 ( 0.00%)                              out << " ";
+ 8,310 ( 0.00%)  => ???:0x000000000010a400 (30x)
+   231 ( 0.00%)                          out << tabl.get_row(i).at(j) << std::endl;
+136,132 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) const (11x)
+ 5,717 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (11x)
+ 4,774 ( 0.00%)  => ???:0x000000000010a440 (11x)
+   789 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (11x)
+     .                               }
+    12 ( 0.00%)                      if (i != Nrows - 1)
+     .                                   out << "  --" << std::endl;
+     .                           }
+     .                       }
+     .                   }
+     .                   else
+    72 ( 0.00%)              out << "  Table is empty" << std::endl;
+ 2,776 ( 0.00%)  => ???:0x000000000010a400 (8x)
+ 3,472 ( 0.00%)  => ???:0x000000000010a440 (8x)
+   288 ( 0.00%)          out << "____" << std::endl
+ 9,312 ( 0.00%)  => ???:0x000000000010a400 (32x)
+13,888 ( 0.01%)  => ???:0x000000000010a440 (32x)
+   128 ( 0.00%)              << std::endl;
+13,888 ( 0.01%)  => ???:0x000000000010a440 (32x)
+   224 ( 0.00%)      }
+     .           
+   928 ( 0.00%)      select_menu::select_menu()
+84,448 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::table() (58x)
+19,952 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() (58x)
+     .               {
+   580 ( 0.00%)          items.add_key("No");
+97,950 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_key(Csv::multitype const&) (58x)
+32,712 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (58x)
+   580 ( 0.00%)          items.add_key("Description");
+194,736 ( 0.08%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_key(Csv::multitype const&) (58x)
+39,324 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (58x)
+   348 ( 0.00%)          title.assign("No title");
+36,424 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) (58x)
+   406 ( 0.00%)      }
+     .           
+     .               void select_menu::add_item (const int no, const multitype& desc)
+ 3,509 ( 0.00%)      {
+   957 ( 0.00%)          items.add_row();
+1,473,523 ( 0.60%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_row() (319x)
+ 6,380 ( 0.00%)          items.get(items.num_rows() - 1, "No").assign(no);
+547,867 ( 0.22%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) (319x)
+179,916 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (319x)
+92,191 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(int) (319x)
+ 2,552 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (319x)
+ 6,380 ( 0.00%)          items.get(items.num_rows() - 1, "Description").assign(desc);
+1,086,388 ( 0.44%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) (319x)
+216,282 ( 0.09%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (319x)
+346,093 ( 0.14%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(Csv::multitype const&) (319x)
+ 2,552 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (319x)
+ 2,233 ( 0.00%)      }
+     .           
+     .               bool select_menu::remove_item_by_no (const int no)
+     .               {
+     .                   return items.rm_row_where("No", no);
+     .               }
+     .           
+     .               void select_menu::set_title (const multitype& e)
+   348 ( 0.00%)      {
+   348 ( 0.00%)          title = e;
+71,335 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (58x)
+   174 ( 0.00%)      }
+     .           
+     .               multitype select_menu::print_menu_and_wait (bool _clrscr, std::ostream& out) const
+ 2,254 ( 0.00%)      {
+   322 ( 0.00%)          if (_clrscr)
+   161 ( 0.00%)              clrscr();
+159,551 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:Interface::clrscr() (161x)
+ 3,381 ( 0.00%)          out << "[ SELECT: " << title << " ]" << std::endl
+92,546 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (161x)
+69,874 ( 0.03%)  => ???:0x000000000010a440 (161x)
+97,083 ( 0.04%)  => ???:0x000000000010a400 (322x)
+ 1,288 ( 0.00%)              << "____" << std::endl
+69,874 ( 0.03%)  => ???:0x000000000010a440 (161x)
+46,851 ( 0.02%)  => ???:0x000000000010a400 (161x)
+   644 ( 0.00%)              << std::endl;
+69,874 ( 0.03%)  => ???:0x000000000010a440 (161x)
+     .           
+   161 ( 0.00%)          int maxl = 0;
+ 9,369 ( 0.00%)          for (int i = 0; i < items.num_rows(); ++i)
+ 9,208 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (1,151x)
+37,620 ( 0.02%)              maxl = Max(maxl, (int)strlen(items.get(i, "No").to_str()));
+4,590,573 ( 1.86%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (1,980x)
+1,116,153 ( 0.45%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (1,980x)
+1,472,186 ( 0.60%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (1,980x)
+31,694 ( 0.01%)  => ???:0x000000000010a330 (1,980x)
+ 9,369 ( 0.00%)          for (int i = 0; i < items.num_rows(); ++i)
+ 9,208 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (1,151x)
+     .                   {
+26,730 ( 0.01%)              out << "  " << items.get(i, "No") << ". ";
+2,296,269 ( 0.93%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (990x)
+558,608 ( 0.23%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (990x)
+1,026,140 ( 0.42%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (990x)
+562,320 ( 0.23%)  => ???:0x000000000010a400 (1,980x)
+28,215 ( 0.01%)              for (int j = 0; j < maxl - (int)strlen(items.get(i, "No").to_str()); ++j)
+2,527,257 ( 1.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (1,089x)
+614,336 ( 0.25%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (1,089x)
+809,091 ( 0.33%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (1,089x)
+17,430 ( 0.01%)  => ???:0x000000000010a330 (1,089x)
+   495 ( 0.00%)                  out << " ";
+27,423 ( 0.01%)  => ???:0x000000000010a400 (99x)
+20,790 ( 0.01%)              out << items.get(i, "Description") << std::endl;
+4,511,974 ( 1.83%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (990x)
+671,220 ( 0.27%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (990x)
+542,878 ( 0.22%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (990x)
+429,660 ( 0.17%)  => ???:0x000000000010a440 (990x)
+     .                   }
+ 1,449 ( 0.00%)          out << "____" << std::endl;
+69,874 ( 0.03%)  => ???:0x000000000010a440 (161x)
+46,851 ( 0.02%)  => ???:0x000000000010a400 (161x)
+     .           
+     .                   // wait for user to choose
+     .                   while (true)
+     .                   {
+ 1,002 ( 0.00%)              out << std::endl
+72,478 ( 0.03%)  => ???:0x000000000010a440 (167x)
+   668 ( 0.00%)                  << "  Your choice: ";
+57,448 ( 0.02%)  => ???:0x000000000010a400 (167x)
+   501 ( 0.00%)              multitype choice;
+57,448 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() (167x)
+   835 ( 0.00%)  			readline(std::cin, choice);
+472,749 ( 0.19%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:readline(std::istream&, Csv::multitype&) (167x)
+ 5,511 ( 0.00%)              if (!items.get_where("No", choice, "No").equal("bad_access"))
+299,598 ( 0.12%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (501x)
+1,384,553 ( 0.56%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_where(Csv::multitype const&, Csv::multitype const&, Csv::multitype const&, bool) const (167x)
+185,832 ( 0.08%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const (167x)
+     .                       {
+   805 ( 0.00%)                  out << std::endl;
+69,874 ( 0.03%)  => ???:0x000000000010a440 (161x)
+   966 ( 0.00%)                  return choice;
+159,211 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (161x)
+     .                       }
+     .                   }
+ 1,449 ( 0.00%)      }
+     .           
+   592 ( 0.00%)      input_menu::input_menu()
+53,837 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::table() (37x)
+12,721 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() (37x)
+     .               {
+   370 ( 0.00%)          items.add_key("Description");
+66,572 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_key(Csv::multitype const&) (37x)
+25,072 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (37x)
+   370 ( 0.00%)          items.add_key("Line input");
+127,954 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_key(Csv::multitype const&) (37x)
+24,628 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (37x)
+   222 ( 0.00%)          title.assign("No title");
+23,222 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) (37x)
+   259 ( 0.00%)      }
+     .           
+     .               void input_menu::add_item (const multitype& desc, bool line_input)
+   900 ( 0.00%)      {
+ 2,325 ( 0.00%)          if (!items.get_where("Description", desc, "Description").equal("bad_access"))
+403,731 ( 0.16%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_where(Csv::multitype const&, Csv::multitype const&, Csv::multitype const&, bool) (75x)
+151,560 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (225x)
+41,243 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const (75x)
+     .                       return;
+   225 ( 0.00%)          items.add_row();
+345,550 ( 0.14%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_row() (75x)
+ 1,500 ( 0.00%)          items.get(items.num_rows() - 1, "Description").assign(desc);
+135,970 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) (75x)
+50,818 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (75x)
+82,370 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(Csv::multitype const&) (75x)
+   600 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (75x)
+ 1,575 ( 0.00%)          items.get(items.num_rows() - 1, "Line input").assign((int)line_input);
+262,264 ( 0.11%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) (75x)
+49,918 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (75x)
+21,668 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(int) (75x)
+   600 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (75x)
+   450 ( 0.00%)      }
+     .           
+     .               bool input_menu::remove_item_by_desc (const multitype& desc, bool strict)
+     .               {
+     .                   return items.rm_row_where("Description", desc, strict);
+     .               }
+     .           
+     .               void input_menu::set_title (const multitype& e)
+   216 ( 0.00%)      {
+   216 ( 0.00%)          title = e;
+43,168 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (36x)
+   108 ( 0.00%)      }
+     .           
+     .               list<multitype> input_menu::print_menu_and_wait (bool _clrscr, std::ostream& out) const
+   481 ( 0.00%)      {
+    74 ( 0.00%)          if (_clrscr)
+    32 ( 0.00%)              clrscr();
+31,712 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:Interface::clrscr() (32x)
+   777 ( 0.00%)          out << "[ INPUT: " << title << " ]" << std::endl
+22,126 ( 0.01%)  => ???:0x000000000010a400 (74x)
+16,058 ( 0.01%)  => ???:0x000000000010a440 (37x)
+21,000 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (37x)
+   296 ( 0.00%)              << "____" << std::endl
+10,767 ( 0.00%)  => ???:0x000000000010a400 (37x)
+16,058 ( 0.01%)  => ???:0x000000000010a440 (37x)
+   148 ( 0.00%)              << std::endl;
+16,058 ( 0.01%)  => ???:0x000000000010a440 (37x)
+     .           
+   148 ( 0.00%)          list<multitype> res;
+22,200 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::list(int) (37x)
+    37 ( 0.00%)          int maxl = 0;
+   933 ( 0.00%)          for (int i = 0; i < items.num_rows(); ++i)
+   896 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (112x)
+ 2,425 ( 0.00%)              maxl = Max(maxl, (int)strlen(items.get(i, "Description").to_str()));
+365,214 ( 0.15%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (125x)
+84,750 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (125x)
+24,310 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (125x)
+ 2,020 ( 0.00%)  => ???:0x000000000010a330 (125x)
+   933 ( 0.00%)          for (int i = 0; i < items.num_rows(); ++i)
+   896 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (112x)
+     .                   {
+   225 ( 0.00%)              multitype e;
+25,374 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() (75x)
+ 2,025 ( 0.00%)              out << "  " << items.get(i, "Description") << "  ";
+218,797 ( 0.09%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (75x)
+50,559 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (75x)
+42,600 ( 0.02%)  => ???:0x000000000010a400 (150x)
+39,855 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:operator<<(std::ostream&, Csv::multitype const&) (75x)
+ 9,825 ( 0.00%)              for (int j = 0; j < maxl - (int)strlen(items.get(i, "Description").to_str()); ++j)
+1,141,386 ( 0.46%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (390x)
+264,420 ( 0.11%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (390x)
+74,900 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (390x)
+ 6,256 ( 0.00%)  => ???:0x000000000010a330 (390x)
+ 1,575 ( 0.00%)                  out << " ";
+87,255 ( 0.04%)  => ???:0x000000000010a400 (315x)
+ 1,425 ( 0.00%)              if (items.get(i, "Line input").to_int())
+308,216 ( 0.13%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) const (75x)
+49,950 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (75x)
+ 4,199 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_int() const (75x)
+   450 ( 0.00%)                  readline(std::cin, e);
+400,696 ( 0.16%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/interface.cpp:readline(std::istream&, Csv::multitype&) (75x)
+     .                       else
+     .                           std::cin >> e;
+   375 ( 0.00%)              res.push_back(e);
+102,673 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::push_back(Csv::multitype const&) (75x)
+     .                   }
+   333 ( 0.00%)          out << "____" << std::endl
+10,767 ( 0.00%)  => ???:0x000000000010a400 (37x)
+16,058 ( 0.01%)  => ???:0x000000000010a440 (37x)
+   148 ( 0.00%)              << std::endl;
+16,058 ( 0.01%)  => ???:0x000000000010a440 (37x)
+     .           
+    74 ( 0.00%)          return res;
+   296 ( 0.00%)      }
+     .           }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h
+--------------------------------------------------------------------------------
+Ir                  
+
+-- line 32 ----------------------------------------
+         .           #define Pchar char*
+         .           #define Double double
+         .           
+         .           namespace Csv
+         .           {
+         .               // dynamically copy the string 'from' to the string 'to', i.e. to = from. same as
+         .               // strcpy but satisfying the condition sizeof(to) >= sizeof(from) is not necessary.
+         .               inline void string_copy (const Pchar from, Pchar& to)
+ 2,325,522 ( 0.94%)      {
+ 3,488,283 ( 1.42%)          to = (Pchar)malloc(strlen(from) + 1);
+72,147,633 (29.31%)  => ???:0x000000000010a4a0 (387,587x)
+ 6,205,360 ( 2.52%)  => ???:0x000000000010a330 (387,587x)
+30,108,442 (12.23%)          for (Pchar p = to; (*p = *from) != '\0'; ++p, ++from);
+ 1,550,348 ( 0.63%)      }
+         .           
+         .               // eliminate all C++ variable-type strains with multitype.
+         .               class multitype
+         .               {
+         .               private:
+         .                   union _tunknown
+         .                   {
+         .                       Int    _tint;
+-- line 51 ----------------------------------------
+-- line 53 ----------------------------------------
+         .                       Char   _tchar;
+         .                       Pchar  _tpchar;
+         .                       Double _tdouble;
+         .                   } values;
+         .                   Pchar _type;
+         .           
+         .               public:
+         .                   // constructors.
+   368,510 ( 0.15%)          multitype()
+         .                   {
+   221,106 ( 0.09%)              init();
+24,474,794 ( 9.94%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::init() (73,702x)
+   221,106 ( 0.09%)          }
+     7,596 ( 0.00%)          multitype (const Int e)
+         .                   {
+     6,330 ( 0.00%)              assign(e);
+   365,839 ( 0.15%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(int) (1,266x)
+     3,798 ( 0.00%)          }
+         .                   multitype (const Long e)
+         .                   {
+         .                       assign(e);
+         .                   }
+     5,544 ( 0.00%)          multitype (const Char e)
+         .                   {
+     3,960 ( 0.00%)              assign(e);
+   239,012 ( 0.10%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char) (792x)
+     2,376 ( 0.00%)          }
+    71,538 ( 0.03%)          multitype (const Pchar e)
+         .                   {
+    59,615 ( 0.02%)              assign(e);
+ 7,283,521 ( 2.96%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) (11,923x)
+    35,769 ( 0.01%)          }
+         .                   multitype (const Double e)
+         .                   {
+         .                       assign(e);
+         .                   }
+   505,044 ( 0.21%)          multitype (const multitype& e)
+         .                   {
+   420,870 ( 0.17%)              assign(e);
+85,728,117 (34.83%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(Csv::multitype const&) (84,174x)
+   252,522 ( 0.10%)          }
+         .           
+         .                   // set multitype back to default value.
+   369,750 ( 0.15%)          void init()
+         .                   {
+   443,700 ( 0.18%)              string_copy("unknown", _type);
+23,522,078 ( 9.56%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (73,950x)
+   221,850 ( 0.09%)          }
+         .           
+         .                   // assign functions
+     9,984 ( 0.00%)          void assign (const Int e)
+         .                   {
+     9,984 ( 0.00%)              string_copy("int", _type);
+   450,902 ( 0.18%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (1,664x)
+     4,992 ( 0.00%)              values._tint = e;
+     4,992 ( 0.00%)          }
+         .                   void assign (const Long e)
+         .                   {
+         .                       string_copy("long", _type);
+         .                       values._tlong = e;
+         .                   }
+     5,544 ( 0.00%)          void assign (const Char e)
+         .                   {
+     4,752 ( 0.00%)              string_copy("char", _type);
+   223,964 ( 0.09%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (792x)
+     2,376 ( 0.00%)              values._tchar = e;
+     2,376 ( 0.00%)          }
+    79,908 ( 0.03%)          void assign (const Pchar e)
+         .                   {
+    79,908 ( 0.03%)              string_copy("str", _type);
+ 3,498,444 ( 1.42%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (13,318x)
+    66,590 ( 0.03%)              string_copy(e, values._tpchar);
+ 4,169,338 ( 1.69%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (13,318x)
+    39,954 ( 0.02%)          }
+         .                   void assign (const Double e)
+         .                   {
+         .                       string_copy("double", _type);
+         .                       values._tdouble = e;
+         .                   }
+ 1,017,464 ( 0.41%)          void assign (const multitype& e)
+         .                   {
+ 1,162,816 ( 0.47%)              string_copy(e.type(), _type);
+39,410,440 (16.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (145,352x)
+ 1,162,816 ( 0.47%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::type() const (145,352x)
+ 1,017,464 ( 0.41%)              if (e.is_type("int"))
+ 5,574,330 ( 2.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (145,352x)
+    21,620 ( 0.01%)                  values._tint = e.to_int();
+   239,919 ( 0.10%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_int() const (4,324x)
+ 1,017,464 ( 0.41%)              if (e.is_type("long"))
+ 5,574,330 ( 2.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (145,352x)
+         .                           values._tlong = e.to_long();
+ 1,017,464 ( 0.41%)              if (e.is_type("char"))
+ 5,574,330 ( 2.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (145,352x)
+         .                           values._tchar = e.to_char();
+ 1,017,464 ( 0.41%)              if (e.is_type("str"))
+ 5,574,330 ( 2.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (145,352x)
+   974,232 ( 0.40%)                  string_copy(e.to_str(), values._tpchar);
+44,543,040 (18.10%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (139,176x)
+26,634,724 (10.82%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (139,176x)
+ 1,017,464 ( 0.41%)              if (e.is_type("double"))
+ 5,574,330 ( 2.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (145,352x)
+         .                           values._tdouble = e.to_double();
+   581,408 ( 0.24%)          }
+         6 ( 0.00%)          multitype& operator= (const Int e)
+         .                   {
+         5 ( 0.00%)              assign(e);
+       289 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(int) (1x)
+         1 ( 0.00%)              return *this;
+         2 ( 0.00%)          }
+         .                   multitype& operator= (const Long e)
+         .                   {
+         .                       assign(e);
+         .                       return *this;
+         .                   }
+         .                   multitype& operator= (const Char e)
+         .                   {
+         .                       assign(e);
+-- line 148 ----------------------------------------
+-- line 153 ----------------------------------------
+         .                       assign(e);
+         .                       return *this;
+         .                   }
+         .                   multitype& operator= (const Double e)
+         .                   {
+         .                       assign(e);
+         .                       return *this;
+         .                   }
+   364,092 ( 0.15%)          multitype& operator= (const multitype& e)
+         .                   {
+   303,410 ( 0.12%)              assign(e);
+62,447,413 (25.37%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(Csv::multitype const&) (60,682x)
+    60,682 ( 0.02%)              return *this;
+   121,364 ( 0.05%)          }
+         .           
+         .                   // append e.to_str() to the end of this->to_str().
+         .                   // this changes the type of 'this' to "str".
+     3,899 ( 0.00%)          multitype& append (const multitype& e)
+         .                   {
+     2,228 ( 0.00%)              Char *cur = to_str(),
+   156,938 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (557x)
+     2,228 ( 0.00%)                   *app = e.to_str(),
+   190,768 ( 0.08%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (557x)
+     6,684 ( 0.00%)                   *res = new Char[strlen(cur) + strlen(app) + 1];
+   116,076 ( 0.05%)  => ???:0x000000000010a2e0 (557x)
+    17,886 ( 0.01%)  => ???:0x000000000010a330 (1,114x)
+       557 ( 0.00%)              Int j = 0;
+    42,127 ( 0.02%)              for (Int i = 0; i < (Int)strlen(cur); res[j++] = cur[i++]);
+    42,872 ( 0.02%)  => ???:0x000000000010a330 (2,569x)
+    25,160 ( 0.01%)              for (Int i = 0; i < (Int)strlen(app); res[j++] = app[i++]);
+    26,850 ( 0.01%)  => ???:0x000000000010a330 (1,676x)
+     2,785 ( 0.00%)              res[j] = '\0';
+     2,785 ( 0.00%)              assign(res);
+   330,711 ( 0.13%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) (557x)
+       557 ( 0.00%)              return *this;
+     1,671 ( 0.00%)          }
+         .           
+         .                   // get type of current value. returns "int", "long", "char", "str", "double"
+         .                   // or "unknown" (default).
+   696,316 ( 0.28%)          Pchar type() const
+         .                   {
+   348,158 ( 0.14%)              return _type;
+   348,158 ( 0.14%)          }
+         .           
+         .                   // check if current value has the type of e. this equals to 'type() == e'.
+ 9,287,784 ( 3.77%)          bool is_type (const Pchar e) const
+         .                   {
+12,383,712 ( 5.03%)              return strcmp(_type, e) == 0;
+34,723,809 (14.11%)  => ???:0x000000000010a4c0 (1,547,964x)
+ 3,095,928 ( 1.26%)          }
+         .           
+         .                   // check if the value has not been set so far. this equals to 'type() == "unknown"'
+         .                   // and 'is_type("unknown")'
+     3,020 ( 0.00%)          bool is_unknown() const
+         .                   {
+     3,020 ( 0.00%)              return is_type("unknown");
+    24,180 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (604x)
+     1,208 ( 0.00%)          }
+         .           
+         .                   // convert current value (of any type) to int.
+    43,005 ( 0.02%)          Int to_int() const
+         .                   {
+    60,207 ( 0.02%)              if (is_type("int"))
+   330,944 ( 0.13%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (8,601x)
+    24,420 ( 0.01%)                  return values._tint;
+     3,227 ( 0.00%)              if (is_type("long"))
+    17,803 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (461x)
+         .                           return values._tlong;
+     3,227 ( 0.00%)              if (is_type("char"))
+    17,803 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (461x)
+         .                           return values._tchar >= '0' && values._tchar <= '9' ? (values._tchar - '0') : (Int)values._tchar;
+     3,227 ( 0.00%)              if (is_type("str"))
+    17,803 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (461x)
+         .                       {
+     2,766 ( 0.00%)                  bool neg = values._tpchar[0] == '-';
+       461 ( 0.00%)                  Int ret = 0;
+    10,750 ( 0.00%)                  for (Int i = neg; i < (Int)strlen(values._tpchar); ++i)
+    22,470 ( 0.01%)  => ???:0x000000000010a330 (1,404x)
+    15,232 ( 0.01%)                      if (values._tpchar[i] >= '0' && values._tpchar[i] <= '9')
+    15,088 ( 0.01%)                          ret = ret*10 + values._tpchar[i] - '0';
+         .                               else
+         .                                   break;
+       922 ( 0.00%)                  if (neg)
+         .                               ret = -ret;
+       922 ( 0.00%)                  return ret;
+         .                       }
+         .                       if (is_type("double"))
+         .                           return (Int)values._tdouble;
+         .                       return 0;
+    17,202 ( 0.01%)          }
+         .           
+         .                   // convert current value (of any type) to long long.
+         .                   Long to_long() const
+         .                   {
+         .                       if (is_type("int"))
+         .                           return values._tint;
+         .                       if (is_type("long"))
+         .                           return values._tlong;
+-- line 235 ----------------------------------------
+-- line 271 ----------------------------------------
+         .                           Char buf[2];
+         .                           snprintf(buf, 2, "%f", values._tdouble);
+         .                           return buf[0];
+         .                       }
+         .                       return 0;
+         .                   }
+         .           
+         .                   // convert current value (of any type) to string.
+   880,410 ( 0.36%)          Pchar to_str() const
+         .                   {
+ 1,232,574 ( 0.50%)              if (is_type("int"))
+ 6,766,937 ( 2.75%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (176,082x)
+         .                       {
+    15,375 ( 0.01%)                  Pchar buf = new Char[STR_BUFFER];
+ 1,083,166 ( 0.44%)  => ???:0x000000000010a2e0 (5,125x)
+    46,125 ( 0.02%)                  snprintf(buf, STR_BUFFER, "%d", values._tint);
+ 2,384,613 ( 0.97%)  => ???:0x000000000010a530 (5,125x)
+    10,250 ( 0.00%)                  return buf;
+         .                       }
+ 1,196,699 ( 0.49%)              if (is_type("long"))
+ 6,569,161 ( 2.67%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (170,957x)
+         .                       {
+         .                           Pchar buf = new Char[STR_BUFFER];
+         .                           snprintf(buf, STR_BUFFER, "%" PRId64, values._tlong);
+         .                           return buf;
+         .                       }
+ 1,196,699 ( 0.49%)              if (is_type("char"))
+ 6,569,161 ( 2.67%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (170,957x)
+         .                       {
+     2,376 ( 0.00%)                  Pchar buf = new Char[2];
+   164,562 ( 0.07%)  => ???:0x000000000010a2e0 (792x)
+     3,168 ( 0.00%)                  buf[0] = values._tchar;
+     1,584 ( 0.00%)                  return buf;
+         .                       }
+ 1,191,155 ( 0.48%)              if (is_type("str"))
+ 6,538,756 ( 2.66%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (170,165x)
+   510,495 ( 0.21%)                  return values._tpchar;
+         .                       if (is_type("double"))
+         .                       {
+         .                           Pchar buf = new Char[STR_BUFFER];
+         .                           snprintf(buf, STR_BUFFER, "%.15f", values._tdouble);
+         .           
+         .                           // trim trailing zeroes
+         .                           char *p = strchr(buf, '.');
+         .                           int count;
+-- line 308 ----------------------------------------
+-- line 322 ----------------------------------------
+         .                                   *p-- = '\0';
+         .                               if (*p == '.')
+         .                                   *p = '\0';
+         .                           }
+         .                           return buf;
+         .                       }
+         .           			Pchar buf = new Char[1]; buf[0] = '\0';
+         .                       return buf;
+   352,164 ( 0.14%)          }
+         .           
+         .                   // convert current value (of any type) to double.
+         .                   Double to_double() const
+         .                   {
+         .                       if (is_type("int"))
+         .                           return (Double)values._tint;
+         .                       if (is_type("long"))
+         .                           return (Double)values._tlong;
+-- line 338 ----------------------------------------
+-- line 372 ----------------------------------------
+         .                       return INFINITY;
+         .                       #else
+         .                       return 0;
+         .                       #endif
+         .                   }
+         .           
+         .                   // compare two multitypes. this function first converts the values into the
+         .                   // same logical type before making the comparison.
+    39,816 ( 0.02%)          bool equal (const multitype& e) const
+         .                   {
+    56,880 ( 0.02%)              if (is_type(e.type()))
+   236,088 ( 0.10%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (5,688x)
+    45,504 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::type() const (5,688x)
+    29,358 ( 0.01%)                  return strict_equal(e);
+ 2,390,695 ( 0.97%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::strict_equal(Csv::multitype const&) const (4,893x)
+    14,226 ( 0.01%)              if (is_type("str") || e.is_type("str"))
+    61,073 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (1,578x)
+    10,335 ( 0.00%)                  return strcmp(to_str(), e.to_str()) == 0;
+   744,135 ( 0.30%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (1,590x)
+    19,036 ( 0.01%)  => ???:0x000000000010a4c0 (795x)
+         .                       if (is_type("double") || e.is_type("double"))
+         .                           return fabs(to_double() - e.to_double()) < REAL_EPS;
+         .                       return to_long() == e.to_long();
+    17,064 ( 0.01%)          }
+         .           
+         .                   // same as equal but this function does not convert any value. thus, if the
+         .                   // values differ in type, it returns FALSE.
+   161,273 ( 0.07%)          bool strict_equal (const multitype& e) const
+         .                   {
+   253,429 ( 0.10%)              if (!is_type(e.type()))
+   922,826 ( 0.37%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (23,039x)
+   184,312 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::type() const (23,039x)
+         .                           return false;
+   161,273 ( 0.07%)              if (is_type("int"))
+   886,819 ( 0.36%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (23,039x)
+        16 ( 0.00%)                  return values._tint == e.to_int();
+       110 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_int() const (2x)
+   161,259 ( 0.07%)              if (is_type("long"))
+   886,743 ( 0.36%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (23,037x)
+         .                           return values._tlong == e.to_long();
+   161,259 ( 0.07%)              if (is_type("char"))
+   886,743 ( 0.36%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (23,037x)
+         .                           return values._tchar == e.to_char();
+   161,259 ( 0.07%)              if (is_type("str"))
+   886,743 ( 0.36%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_type(char const*) const (23,037x)
+   276,444 ( 0.11%)                  return strcmp(values._tpchar, e.to_str()) == 0;
+ 4,457,314 ( 1.81%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (23,037x)
+   556,709 ( 0.23%)  => ???:0x000000000010a4c0 (23,037x)
+         .                       if (is_type("double"))
+         .                           return fabs(values._tdouble - e.to_double()) < REAL_EPS;
+         .                       return false;
+    69,117 ( 0.03%)          }
+         .               };
+         .           
+         .               // a linked list powered by a handful of functions.
+         .               template<typename T>
+         .               class list
+         .               {
+         .               private:
+   858,000 ( 0.35%)          struct iter
+24,530,442 ( 9.97%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() (71,500x)
+         .                   {
+         .                       struct iter *next;
+         .                       T value;
+         .                   } *head;
+         .                   Int _size;
+         .           
+       144 ( 0.00%)          void destroy_util (iter *root)
+         .                   {
+        96 ( 0.00%)              if (root->next == nullptr)
+         9 ( 0.00%)                  return;
+        90 ( 0.00%)              destroy_util(root->next);
+     1,587 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::destroy_util(Csv::list<Csv::multitype>::iter*)'2 (3x)
+       120 ( 0.00%)              delete[] root->next;
+       285 ( 0.00%)  => ???:0x000000000010a490 (3x)
+        30 ( 0.00%)              root->next = nullptr;
+        90 ( 0.00%)              --_size;
+        48 ( 0.00%)          }
+         .           
+         .               public:
+         .                   // constructors.
+         .           		// if 'num_elms' is given, this function reserves a number of elements.
+   121,389 ( 0.05%)          list (Int num_elms = 0)
+         .                   {
+   120,516 ( 0.05%)              head = new iter();
+ 4,178,754 ( 1.70%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::iter::iter() (11,877x)
+ 2,437,570 ( 0.99%)  => ???:0x000000000010a420 (11,877x)
+    24,336 ( 0.01%)              _size = 0;
+    68,244 ( 0.03%)              for (Int i = 0; i < num_elms; ++i)
+    14,808 ( 0.01%)                  push_back(T());
+ 2,228,722 ( 0.91%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::push_back(Csv::multitype const&) (1,851x)
+   634,763 ( 0.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() (1,851x)
+    84,885 ( 0.03%)          }
+         .           
+       240 ( 0.00%)  		list (std::initializer_list<multitype> e)
+         .           		{
+       160 ( 0.00%)  			head = new iter();
+     5,624 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::iter::iter() (16x)
+     3,288 ( 0.00%)  => ???:0x000000000010a420 (16x)
+        32 ( 0.00%)  			_size = 0;
+       890 ( 0.00%)  			for (multitype item : e)
+    78,731 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (74x)
+       544 ( 0.00%)  => /usr/include/c++/13/initializer_list:std::initializer_list<Csv::multitype>::end() const (16x)
+       128 ( 0.00%)  => /usr/include/c++/13/initializer_list:std::initializer_list<Csv::multitype>::begin() const (16x)
+       370 ( 0.00%)  				push_back(item);
+   124,199 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::push_back(Csv::multitype const&) (74x)
+       112 ( 0.00%)  		}
+         .           
+         .                   // push an element with value 'e' to the back of the list.
+   442,131 ( 0.18%)          void push_back (const T& e)
+         .                   {
+   191,262 ( 0.08%)              iter *root = head;
+ 1,075,830 ( 0.44%)              while (root->next != nullptr)
+   567,795 ( 0.23%)                  root = root->next;
+   620,952 ( 0.25%)              root->next = new iter();
+    32,340 ( 0.01%)  => ???:0x000000000010a420 (154x)
+   437,984 ( 0.18%)              root->next->value = e;
+62,178,103 (25.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (59,607x)
+   318,770 ( 0.13%)              ++_size;
+   250,869 ( 0.10%)          }
+         .           
+         .                   // push an element with value 'e' to the front of the list.
+         .                   void push_front (const T& e)
+         .                   {
+         .                       iter *add = new iter();
+         .                       add->next = head->next;
+         .                       add->next->value = e;
+         .                       head->next = add;
+         .                       ++_size;
+         .                   }
+         .           
+         .                   // pop an element from the back of the list and return it.
+     2,080 ( 0.00%)          T pop_back()
+         .                   {
+     2,080 ( 0.00%)              if (empty())
+     4,576 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::empty() const (416x)
+         .                           return T();
+     1,248 ( 0.00%)              iter *root = head;
+    14,231 ( 0.01%)              while (root->next->next != nullptr)
+     7,041 ( 0.00%)                  root = root->next;
+     1,664 ( 0.00%)              T value = root->next->value;
+     3,328 ( 0.00%)              delete[] root->next;
+    40,954 ( 0.02%)  => ???:0x000000000010a490 (416x)
+       832 ( 0.00%)              root->next = nullptr;
+     2,080 ( 0.00%)              --_size;
+       416 ( 0.00%)              return value;
+       832 ( 0.00%)          }
+         .           
+         .                   // pop an element from the front of the list and return it.
+    17,885 ( 0.01%)          T pop_front()
+         .                   {
+    17,885 ( 0.01%)              if (empty())
+    39,347 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::empty() const (3,577x)
+         .                           return T();
+    17,885 ( 0.01%)              iter *next = head->next->next;
+    17,885 ( 0.01%)              T value = head->next->value;
+    35,770 ( 0.01%)              delete[] head->next;
+   351,532 ( 0.14%)  => ???:0x000000000010a490 (3,577x)
+    14,308 ( 0.01%)              head->next = next;
+    17,885 ( 0.01%)              --_size;
+     3,577 ( 0.00%)              return value;
+     7,154 ( 0.00%)          }
+         .           
+         .                   // insert an element with value 'e' at the position 'pos'.
+         .                   void insert (Int pos, const T& e)
+         .                   {
+         .                       iter *root = head;
+         .                       while (pos-- && root->next != nullptr)
+         .                           root = root->next;
+         .                       iter *add = new iter();
+         .                       add->next = root->next;
+         .                       add->next->value = e;
+         .                       root->next = add;
+         .                       ++_size;
+         .                   }
+         .           
+         .                   // destroy the list, i.e. delete all elements.
+        45 ( 0.00%)          void destroy()
+         .                   {
+        54 ( 0.00%)              destroy_util(head);
+     2,052 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::destroy_util(Csv::list<Csv::multitype>::iter*) (9x)
+        27 ( 0.00%)          }
+         .           
+         .                   // check if the list is empty.
+    33,584 ( 0.01%)          bool empty() const
+         .                   {
+    41,980 ( 0.02%)              return head->next == nullptr;
+    16,792 ( 0.01%)          }
+         .           
+         .                   // get the size of the list.
+   109,928 ( 0.04%)          Int size() const
+         .                   {
+    54,964 ( 0.02%)              return _size;
+    54,964 ( 0.02%)          }
+         .           
+         .                   // get the value at the position 'pos'.
+   263,210 ( 0.11%)          T& at (Int pos)
+         .                   {
+   157,926 ( 0.06%)              if (pos < 0 || pos >= _size)
+        12 ( 0.00%)                  return *new T();
+       688 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype() (2x)
+       420 ( 0.00%)  => ???:0x000000000010a420 (2x)
+    78,957 ( 0.03%)              iter *root = head;
+   797,899 ( 0.32%)              while (pos-- && root->next != nullptr)
+   129,468 ( 0.05%)                  root = root->next;
+   267,629 ( 0.11%)              return root->next != nullptr ? root->next->value : *new T();
+   228,011 ( 0.09%)          }
+   527,282 ( 0.21%)          T at (Int pos) const
+         .                   {
+   451,956 ( 0.18%)              if (pos < 0 || pos >= _size)
+         .                           return T();
+   225,978 ( 0.09%)              iter *root = head;
+ 3,098,885 ( 1.26%)              while (pos-- && root->next != nullptr)
+   558,681 ( 0.23%)                  root = root->next;
+   903,912 ( 0.37%)              return root->next != nullptr ? root->next->value : T();
+79,403,141 (32.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (75,326x)
+   225,978 ( 0.09%)          }
+         .           
+         .                   // remove the element at the position 'pos' from the list.
+         .                   void delete_at (Int pos)
+         .                   {
+         .                       if (pos < 0 || pos >= _size)
+         .                           return;
+         .                       iter *root = head;
+         .                       while (pos-- && root->next != nullptr)
+-- line 558 ----------------------------------------
+-- line 560 ----------------------------------------
+         .           			iter* next;
+         .           			next = root->next != nullptr ? root->next->next : nullptr;
+         .                       delete[] root->next;
+         .                       root->next = next;
+         .                       --_size;
+         .                   }
+         .           
+         .           		// make a copy of a list.
+    81,160 ( 0.03%)  		list<T> copy() const
+         .           		{
+    40,580 ( 0.02%)  			list<T> res;
+ 6,019,970 ( 2.45%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::list(int) (10,145x)
+   346,770 ( 0.14%)  			for (int i = 0; i < _size; ++i)
+   628,980 ( 0.26%)  				res.push_back(at(i));
+96,371,037 (39.15%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::push_back(Csv::multitype const&) (57,180x)
+65,288,321 (26.52%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) const (57,180x)
+    20,290 ( 0.01%)  			return res;
+    50,725 ( 0.02%)  		}
+         .               };
+         .           
+         .               // main database saver/handler of the whole project.
+         .               class table
+         .               {
+         .               private:
+    10,959 ( 0.00%)          struct plist
+   483,363 ( 0.20%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::list(int) (843x)
+         .                   {
+         .                       struct plist *next;
+         .                       list<multitype> value;
+         .                   } *rows;
+         .                   list<multitype> keys;
+         .           
+         .                   Int _num_rows;
+         .           
+         .               public:
+         .                   // constructor.
+     1,384 ( 0.00%)          table()
+       865 ( 0.00%)          {
+   102,772 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::list(int) (173x)
+     1,903 ( 0.00%)              rows = new plist();
+   104,659 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::plist::plist() (173x)
+    35,453 ( 0.01%)  => ???:0x000000000010a420 (173x)
+       346 ( 0.00%)              _num_rows = 0;
+     1,211 ( 0.00%)          }
+         .           
+         .                   // add new column with name 'e' to the table.
+     4,550 ( 0.00%)          void add_key (const multitype& e)
+         .                   {
+     3,185 ( 0.00%)              if (has_key(e))
+ 1,371,525 ( 0.56%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::has_key(Csv::multitype const&) const (455x)
+        66 ( 0.00%)                  return;
+     2,334 ( 0.00%)              keys.push_back(e);
+   642,021 ( 0.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::push_back(Csv::multitype const&) (389x)
+     1,167 ( 0.00%)              plist *head = rows;
+     2,334 ( 0.00%)              while (head->next != nullptr)
+         .                       {
+         .                           head->next->value.push_back(multitype());
+         .                           head = head->next;
+         .                       }
+     2,730 ( 0.00%)          }
+         .           
+         .                   // entirely remove a column with name 'e' from the table.
+         .                   void rm_key (const multitype& e)
+         .                   {
+         .                       for (Int i = 0; i < keys.size(); ++i)
+         .                           if (e.strict_equal(keys.at(i)))
+         .                           {
+         .                               keys.delete_at(i);
+-- line 618 ----------------------------------------
+-- line 622 ----------------------------------------
+         .                                   head->next->value.delete_at(i);
+         .                                   head = head->next;
+         .                               }
+         .                               return;
+         .                           }
+         .                   }
+         .           
+         .                   // get the ordinary number of the column named 'e' (starting from 0).
+   101,286 ( 0.04%)          Int get_key (const multitype& e) const
+         .                   {
+   178,645 ( 0.07%)              for (Int i = 0; i < keys.size(); ++i)
+   148,792 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (18,599x)
+   254,044 ( 0.10%)                  if (e.strict_equal(keys.at(i)))
+20,107,492 ( 8.17%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) const (18,146x)
+ 8,682,953 ( 3.53%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::strict_equal(Csv::multitype const&) const (18,146x)
+    21,602 ( 0.01%)                      return i;
+       453 ( 0.00%)              return -1;
+    56,270 ( 0.02%)          }
+         .           
+         .                   // check if the table has a column named 'e'.
+     2,730 ( 0.00%)          bool has_key (const multitype& e) const
+         .                   {
+     3,185 ( 0.00%)              return get_key(e) != -1;
+ 1,364,700 ( 0.55%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (455x)
+       910 ( 0.00%)          }
+         .           
+         .                   // get the name list of all table columns.
+    33,310 ( 0.01%)          list<multitype> get_keys() const
+         .                   {
+    26,648 ( 0.01%)              return keys.copy();
+110,623,019 (44.94%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::copy() const (6,662x)
+    13,324 ( 0.01%)          }
+         .           
+         .           		// fix table keys down to a fixed list of keys.
+       240 ( 0.00%)  		void fix_keys (list<multitype> nkeys)
+         .           		{
+        80 ( 0.00%)  			list<multitype> curkeys = get_keys();
+   195,632 ( 0.08%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (16x)
+       672 ( 0.00%)  			for (Int i = 0; i < curkeys.size(); ++i)
+       656 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (82x)
+         .           			{
+        66 ( 0.00%)  				bool flag = false;
+     3,938 ( 0.00%)  				for (Int j = 0; j < nkeys.size(); ++j)
+     3,872 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (484x)
+     6,688 ( 0.00%)  					if (curkeys.at(i).equal(nkeys.at(j)))
+   232,154 ( 0.09%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const (418x)
+    87,900 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (836x)
+        66 ( 0.00%)  						flag = true;
+       264 ( 0.00%)  				if (!flag)
+         .           					rm_key(curkeys.at(i));
+         .           			}
+       736 ( 0.00%)  			for (Int i = 0; i < nkeys.size(); ++i)
+       720 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (90x)
+       740 ( 0.00%)  				add_key(nkeys.at(i));
+   463,617 ( 0.19%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_key(Csv::multitype const&) (74x)
+     6,742 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (74x)
+         .           
+         .           			// sort the columns
+       736 ( 0.00%)  			for (Int i = 0; i < nkeys.size(); ++i)
+       720 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (90x)
+     2,446 ( 0.00%)  				for (Int j = i + 1; j < nkeys.size(); ++j)
+     2,224 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (278x)
+         .           				{
+     2,244 ( 0.00%)  					Int key_i = get_key(nkeys.at(i)),
+ 1,079,055 ( 0.44%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (204x)
+    16,708 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (204x)
+     2,244 ( 0.00%)  						key_j = get_key(nkeys.at(j));
+ 2,173,702 ( 0.88%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (204x)
+    27,092 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (204x)
+       612 ( 0.00%)  					if (key_i > key_j)
+         .           					{
+        25 ( 0.00%)  						for (Int k = 0; k < num_rows(); ++k)
+        24 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (3x)
+         .           						{
+        30 ( 0.00%)  							multitype tmp = get_row(k).at(key_i);
+       190 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (2x)
+     2,034 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (2x)
+       108 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (2x)
+        48 ( 0.00%)  							get_row(k).at(key_i).assign(get_row(k).at(key_j));
+       348 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (4x)
+     2,162 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(Csv::multitype const&) (2x)
+       216 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (4x)
+        30 ( 0.00%)  							get_row(k).at(key_j).assign(tmp);
+       158 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (2x)
+     2,006 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(Csv::multitype const&) (2x)
+       108 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (2x)
+         .           						}
+        10 ( 0.00%)  						multitype tmp = nkeys.at(i);
+        79 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (1x)
+     1,041 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (1x)
+        14 ( 0.00%)  						nkeys.at(i) = nkeys.at(j);
+       174 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (2x)
+     1,005 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (1x)
+        10 ( 0.00%)  						nkeys.at(j) = tmp;
+        95 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (1x)
+     1,041 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (1x)
+        11 ( 0.00%)  						tmp = keys.at(key_i);
+        95 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (1x)
+     1,041 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (1x)
+        16 ( 0.00%)  						keys.at(key_i) = keys.at(key_j);
+       174 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (2x)
+     1,005 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (1x)
+        11 ( 0.00%)  						keys.at(key_j) = tmp;
+        79 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (1x)
+     1,041 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (1x)
+         .           					}
+         .           				}
+       112 ( 0.00%)  		}
+         .           
+         .                   // add a row to the table.
+     7,370 ( 0.00%)          void add_row()
+         .                   {
+     2,010 ( 0.00%)              plist *head = rows;
+    13,546 ( 0.01%)              while (head->next != nullptr)
+     7,647 ( 0.00%)                  head = head->next;
+     7,370 ( 0.00%)              head->next = new plist();
+   389,663 ( 0.16%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::plist::plist() (670x)
+   126,791 ( 0.05%)  => ???:0x000000000010a420 (670x)
+    10,050 ( 0.00%)              head->next->value = list<multitype>(keys.size());
+ 3,272,134 ( 1.33%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::list(int) (670x)
+     5,360 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (670x)
+     3,350 ( 0.00%)              ++_num_rows;
+     6,700 ( 0.00%)          }
+         .           
+         .                   // remove the 'row'-th row from the table (starting from 0).
+       204 ( 0.00%)          void rm_row (Int row)
+         .                   {
+       204 ( 0.00%)              if (row < 0 || row >= _num_rows)
+         .                           return;
+       102 ( 0.00%)              plist *head = rows;
+     4,115 ( 0.00%)              while (row-- && head->next != nullptr)
+       879 ( 0.00%)                  head = head->next;
+         .           			plist* next;
+       306 ( 0.00%)  			next = head->next != nullptr ? head->next->next : nullptr;
+       272 ( 0.00%)              delete[] head->next;
+     3,230 ( 0.00%)  => ???:0x000000000010a490 (34x)
+       102 ( 0.00%)              head->next = next;
+       204 ( 0.00%)              --_num_rows;
+        68 ( 0.00%)          }
+         .           
+         .                   // get the number of rows in the table, not including the table head,
+         .                   // i.e. the row containing the column names.
+    20,696 ( 0.01%)          Int num_rows() const
+         .                   {
+    10,348 ( 0.00%)              return _num_rows;
+    10,348 ( 0.00%)          }
+         .           
+         .                   // get the 'row'-th row.
+    36,810 ( 0.01%)          list<multitype>& get_row (Int row)
+         .                   {
+    22,086 ( 0.01%)              if (row < 0 || row >= _num_rows)
+         .                           return *new list<multitype>();
+    11,043 ( 0.00%)              plist *head = rows;
+   344,193 ( 0.14%)              while (row-- && head->next != nullptr)
+    71,784 ( 0.03%)                  head = head->next;
+    33,129 ( 0.01%)  			return head->next != nullptr ? head->next->value : *new list<multitype>();
+    33,129 ( 0.01%)          }
+    31,347 ( 0.01%)          list<multitype> get_row (Int row) const
+         .                   {
+    20,898 ( 0.01%)              if (row < 0 || row >= _num_rows)
+         .                           return list<multitype>();
+    10,449 ( 0.00%)              plist *head = rows;
+   341,670 ( 0.14%)              while (row-- && head->next != nullptr)
+    71,613 ( 0.03%)                  head = head->next;
+    41,796 ( 0.02%)              return head->next != nullptr ? head->next->value.copy() : list<multitype>();
+58,224,814 (23.65%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::copy() const (3,483x)
+    24,381 ( 0.01%)          }
+         .           
+         .                   // get the row where the column named 'key_search' has the value of 'e'.
+         .                   // this function uses equal() to compare the values.
+         .                   // if there are multiple rows satisfying the condition, only the first valid
+         .                   // one is returned.
+       132 ( 0.00%)          list<multitype>& get_row_where (const multitype& key_search, const multitype& e, bool strict = false)
+         .                   {
+        66 ( 0.00%)              Int key_id = get_key(key_search);
+    17,585 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (11x)
+        22 ( 0.00%)              if (key_id == -1)
+         .                           return *new list<multitype>();
+        33 ( 0.00%)              plist *head = rows;
+       411 ( 0.00%)              while (head->next != nullptr)
+         .                       {
+     1,862 ( 0.00%)                  if (strict ? head->next->value.at(key_id).strict_equal(e) : head->next->value.at(key_id).equal(e))
+    53,680 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const (98x)
+     4,606 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (98x)
+        36 ( 0.00%)                      return head->next->value;
+       267 ( 0.00%)                  head = head->next;
+         .                       }
+        14 ( 0.00%)              return *new list<multitype>();
+     1,200 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::list(int) (2x)
+       420 ( 0.00%)  => ???:0x000000000010a420 (2x)
+        88 ( 0.00%)          }
+         .                   list<multitype> get_row_where (const multitype& key_search, const multitype& e, bool strict = false) const
+         .                   {
+         .                       Int key_id = get_key(key_search);
+         .                       if (key_id == -1)
+         .                           return list<multitype>();
+         .                       plist *head = rows;
+         .                       while (head->next != nullptr)
+         .                       {
+-- line 768 ----------------------------------------
+-- line 769 ----------------------------------------
+         .                           if (strict ? head->next->value.at(key_id).strict_equal(e) : head->next->value.at(key_id).equal(e))
+         .                               return head->next->value.copy();
+         .                           head = head->next;
+         .                       }
+         .                       return list<multitype>();
+         .                   }
+         .           
+         .                   // get the value of the column named 'key' on the 'row'-th row.
+    16,788 ( 0.01%)          multitype& get (Int row, const multitype& key)
+         .                   {
+     8,394 ( 0.00%)              if (row < 0 || row >= _num_rows)
+         .                           return *new multitype("bad_access");
+     4,197 ( 0.00%)              plist *head = rows;
+    67,321 ( 0.03%)              while (row-- && head->next != nullptr)
+    12,630 ( 0.01%)                  head = head->next;
+     8,394 ( 0.00%)              Int pos = get_key(key);
+ 4,599,109 ( 1.87%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (1,399x)
+     8,714 ( 0.00%)              return pos == -1 ? (*new multitype("bad_access")) :
+    42,624 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (64x)
+    13,440 ( 0.01%)  => ???:0x000000000010a420 (64x)
+    16,148 ( 0.01%)  							   (head->next != nullptr ? head->next->value.at(pos) : *new multitype());
+    85,257 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (1,335x)
+    13,990 ( 0.01%)          }
+    68,568 ( 0.03%)          multitype get (Int row, const multitype& key) const
+         .                   {
+    34,284 ( 0.01%)              if (row < 0 || row >= _num_rows)
+         .                           return multitype("bad_access");
+    17,142 ( 0.01%)              plist *head = rows;
+   275,533 ( 0.11%)              while (row-- && head->next != nullptr)
+    51,717 ( 0.02%)                  head = head->next;
+    34,284 ( 0.01%)              Int pos = get_key(key);
+10,776,576 ( 4.38%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (5,714x)
+    11,428 ( 0.00%)  			return pos == -1 ? (*new multitype("bad_access")) :
+   102,852 ( 0.04%)  							   (head->next != nullptr ? head->next->value.at(pos) : multitype());
+ 4,255,992 ( 1.73%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (5,714x)
+   285,598 ( 0.12%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (5,714x)
+    45,712 ( 0.02%)          }
+         .           
+         .                   // get the value of the column named 'key_get' on the row where there is
+         .                   // a column named 'key_search' that has the value of 'e'.
+         .                   // if there are multiple rows satisfying the condition, only the first valid
+         .                   // one is returned.
+       869 ( 0.00%)          multitype& get_where (const multitype& key_search, const multitype& e, const multitype& key_get, bool strict = false)
+         .                   {
+       474 ( 0.00%)              Int key_sid = get_key(key_search),
+   132,313 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (79x)
+       474 ( 0.00%)                  key_gid = get_key(key_get);
+   148,599 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (79x)
+       316 ( 0.00%)              if (key_sid == -1 || key_gid == -1)
+         .                           return *new multitype("bad_access");
+       237 ( 0.00%)              plist *head = rows;
+       975 ( 0.00%)              while (head->next != nullptr)
+         .                       {
+     2,831 ( 0.00%)                  if (strict ? head->next->value.at(key_sid).strict_equal(e) : head->next->value.at(key_sid).equal(e))
+    82,117 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const (149x)
+     7,003 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (149x)
+        36 ( 0.00%)                      return head->next->value.at(key_gid);
+       348 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (4x)
+       435 ( 0.00%)                  head = head->next;
+         .                       }
+       525 ( 0.00%)              return *new multitype("bad_access");
+    49,918 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (75x)
+    15,734 ( 0.01%)  => ???:0x000000000010a420 (75x)
+       316 ( 0.00%)          }
+     1,837 ( 0.00%)          multitype get_where (const multitype& key_search, const multitype& e, const multitype& key_get, bool strict = false) const
+         .                   {
+     1,002 ( 0.00%)              Int key_sid = get_key(key_search),
+   260,266 ( 0.11%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (167x)
+     1,002 ( 0.00%)                  key_gid = get_key(key_get);
+   260,802 ( 0.11%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (167x)
+       668 ( 0.00%)              if (key_sid == -1 || key_gid == -1)
+         .                           return multitype("bad_access");
+       501 ( 0.00%)              plist *head = rows;
+     2,663 ( 0.00%)              while (head->next != nullptr)
+         .                       {
+    11,742 ( 0.00%)                  if (strict ? head->next->value.at(key_sid).strict_equal(e) : head->next->value.at(key_sid).equal(e))
+   702,909 ( 0.29%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const (618x)
+    29,046 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (618x)
+     2,093 ( 0.00%)                      return head->next->value.at(key_gid);
+    96,557 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (161x)
+     7,567 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (161x)
+     1,371 ( 0.00%)                  head = head->next;
+         .                       }
+        30 ( 0.00%)              return multitype("bad_access");
+     3,996 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (6x)
+       501 ( 0.00%)          }
+         .           
+         .                   // delete the first found row where the value of the column named 'key_search' is 'e'.
+         .                   // this function uses equal() to compare the values.
+         .                   // this function returns TRUE if a row is found and deleted.
+        63 ( 0.00%)          bool rm_row_where (const multitype& key_search, const multitype& e, bool strict = false)
+         .                   {
+        42 ( 0.00%)              Int key_sid = get_key(key_search);
+    14,757 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_key(Csv::multitype const&) const (7x)
+        14 ( 0.00%)              if (key_sid == -1)
+         .                           return false;
+        21 ( 0.00%)              plist *head = rows;
+       283 ( 0.00%)              while (head->next != nullptr)
+         .                       {
+     1,292 ( 0.00%)                  if (strict ? head->next->value.at(key_sid).strict_equal(e) : head->next->value.at(key_sid).equal(e))
+    42,777 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::equal(Csv::multitype const&) const (68x)
+     3,388 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (68x)
+         .                           {
+        24 ( 0.00%)                      plist *next = head->next->next;
+        48 ( 0.00%)                      delete[] head->next;
+       570 ( 0.00%)  => ???:0x000000000010a490 (6x)
+        18 ( 0.00%)                      head->next = next;
+        30 ( 0.00%)                      --_num_rows;
+        12 ( 0.00%)                      return true;
+         .                           }
+       186 ( 0.00%)                  head = head->next;
+         .                       }
+         1 ( 0.00%)              return false;
+        14 ( 0.00%)          }
+         .           
+         .                   // create a new table out of the current one using a filter function.
+         .                   // the filter function must take 2 parameters:       [multitype] column_name,
+         .                   //                                             [list<multitype>] current_row,
+         .                   //                                                       [table] this_table.
+         .                   // the filter function is called on every cell. if true is returned,
+         .                   // the cell will exist in the new table.
+       546 ( 0.00%)          table filter (bool(*_filter_func)(multitype, list<multitype>, table)) const
+         .                   {
+       378 ( 0.00%)              int Nkeys = get_keys().size(),
+   588,962 ( 0.24%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (42x)
+       336 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (42x)
+       168 ( 0.00%)                  Nrows = num_rows();
+       336 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (42x)
+       420 ( 0.00%)              bool *markRow = new bool[Nrows], *markCol = new bool[Nkeys];
+    17,622 ( 0.01%)  => ???:0x000000000010a2e0 (84x)
+       252 ( 0.00%)              memset(markRow, 0, Nrows * sizeof(bool));
+       680 ( 0.00%)  => ???:0x000000000010a370 (42x)
+       252 ( 0.00%)              memset(markCol, 0, Nkeys * sizeof(bool));
+       748 ( 0.00%)  => ???:0x000000000010a370 (42x)
+     2,122 ( 0.00%)              for (int i = 0; i < Nrows; ++i)
+    10,970 ( 0.00%)                  for (int j = 0; j < Nkeys; ++j)
+   100,815 ( 0.04%)                      if (_filter_func(get_keys().at(j), get_row(i), (*this)))
+36,203,989 (14.71%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (2,145x)
+35,905,167 (14.59%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) const (2,145x)
+ 4,605,955 ( 1.87%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_schedule(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (66x)
+ 3,128,972 ( 1.27%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/scoreboard.cpp:__scoreboard_filter_courseID_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (672x)
+ 2,290,576 ( 0.93%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(Csv::multitype const&) (2,145x)
+ 1,771,735 ( 0.72%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/scoreboard.cpp:__scoreboard_filter_courseID_studentID_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (336x)
+ 1,541,020 ( 0.63%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_student_course(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (110x)
+ 1,381,726 ( 0.56%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/attendancelist.cpp:__courses_filter_date_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (66x)
+   961,487 ( 0.39%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_course_print(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (132x)
+   507,262 ( 0.21%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/attendancelist.cpp:__attendancelist_filter_courseID_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (80x)
+   383,243 ( 0.16%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/class.cpp:SMS::filterClass(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (110x)
+   268,140 ( 0.11%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_student(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (98x)
+   181,151 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (2,145x)
+   222,579 ( 0.09%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/attendancelist.cpp:__attendancelist_filter_studentID_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (48x)
+   221,562 ( 0.09%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/scoreboard.cpp:__courses_filter_studentID_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (48x)
+   184,925 ( 0.08%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_course_semester(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (68x)
+   169,932 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_student_and_course(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (48x)
+   162,934 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/main.cpp:student_filter(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (55x)
+   122,716 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_semester_name(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (22x)
+    83,502 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/lecturer.cpp:__lecturers_filter_lecturerIDs_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (16x)
+    74,858 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/class.cpp:SMS::filterStudent(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (110x)
+    59,762 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_semester(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (22x)
+    50,570 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/attendancelist.cpp:__attendancelist_filter_studentID_view_mode_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (10x)
+    48,673 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/main.cpp:lecturer_filter(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (16x)
+    21,382 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/lecturer.cpp:__courselecturer_filter_courseID_func(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (8x)
+     4,954 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/src/courses.cpp:SMS::filter_year(Csv::multitype, Csv::list<Csv::multitype>, Csv::table) (4x)
+     4,103 ( 0.00%)                          markRow[i] = markCol[j] = true;
+       126 ( 0.00%)              table new_table;
+    61,152 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::table() (42x)
+       994 ( 0.00%)              for (int i = 0; i < Nkeys; ++i)
+     1,372 ( 0.00%)                  if (markCol[i])
+     1,680 ( 0.00%)                      new_table.add_key(get_keys().at(i));
+ 1,986,690 ( 0.81%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (112x)
+   645,544 ( 0.26%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_key(Csv::multitype const&) (112x)
+     9,808 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (112x)
+     2,122 ( 0.00%)              for (int i = 0; i < Nrows; ++i)
+     3,346 ( 0.00%)                  if (markRow[i])
+         .                           {
+       318 ( 0.00%)                      new_table.add_row();
+   744,340 ( 0.30%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_row() (106x)
+     2,278 ( 0.00%)                      for (int j = 0; j < Nkeys; ++j)
+    15,732 ( 0.01%)                          new_table.get(new_table.num_rows() - 1, get_keys().at(j)) = get_row(i).at(j);
+ 7,189,401 ( 2.92%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (437x)
+ 7,126,150 ( 2.89%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) const (437x)
+ 2,339,964 ( 0.95%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get(int, Csv::multitype const&) (437x)
+   455,089 ( 0.18%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::operator=(Csv::multitype const&) (437x)
+    72,694 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (874x)
+     3,496 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (437x)
+         .                           }
+        42 ( 0.00%)              return new_table;
+       420 ( 0.00%)          }
+         .               };
+         .           
+         .               // a csv file reader/writer. ONLY INITIALIZE THIS ONCE in the project and
+         .               // use the function get_table() to get the table instance to work on.
+         .               class csv_handler
+         .               {
+         .               private:
+         .                   table _table;
+         .                   Pchar filename;
+         .                   FILE *fptr;
+         .           
+         .                   list<Char> csv_str;
+         .                   bool formal_blank_line_flag = false;
+    29,216 ( 0.01%)          Char csv_read_char()
+         .                   {
+    47,491 ( 0.02%)              if (fptr == nullptr || feof(fptr))
+    32,868 ( 0.01%)  => ???:0x000000000010a500 (3,652x)
+        30 ( 0.00%)                  return '\0';
+    18,185 ( 0.01%)              Int ch = fgetc(fptr);
+    90,808 ( 0.04%)  => ???:0x000000000010a510 (3,637x)
+     7,274 ( 0.00%)              if (ch == EOF)
+         .                       {
+        75 ( 0.00%)                  if (!formal_blank_line_flag)
+        30 ( 0.00%)                      return '\n';
+         .                           formal_blank_line_flag = true;
+         .                           return '\0';
+         .                       }
+    14,224 ( 0.01%)              if (ch >= 32 && ch <= 126)
+    27,920 ( 0.01%)                  csv_str.push_back((Char)ch);
+   933,823 ( 0.38%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::push_back(char const&) (3,490x)
+     3,622 ( 0.00%)              return ch;
+    18,260 ( 0.01%)          }
+         .                   Char csv_break_line()
+         .                   {
+         .                       if (fptr == nullptr || feof(fptr))
+         .                           return '\0';
+         .                       while (true)
+         .                       {
+         .                           Int ch = fgetc(fptr);
+         .                           if (ch == EOF)
+         .                               return '\0';
+         .                           if (ch == '\n')
+         .                               return '\n';
+         .                       }
+         .                       return '\0';
+         .                   }
+     3,378 ( 0.00%)          Pchar csv_export_pchar()
+         .                   {
+     5,067 ( 0.00%)              Pchar ret = new Char[csv_str.size() + 1];
+    59,477 ( 0.02%)  => ???:0x000000000010a2e0 (563x)
+     4,504 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::size() const (563x)
+       563 ( 0.00%)              Int i = 0;
+    29,096 ( 0.01%)              for (; !csv_str.empty(); ++i)
+    40,007 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::empty() const (3,637x)
+    27,666 ( 0.01%)                  ret[i] = csv_str.pop_front();
+   465,458 ( 0.19%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::pop_front() (3,074x)
+     2,815 ( 0.00%)              ret[i] = '\0';
+       563 ( 0.00%)              return ret;
+     1,689 ( 0.00%)          }
+         .           
+         .               public:
+         .                   // constructor. this class must be initialized with a string '_filename',
+         .                   // the name of the csv file.
+       153 ( 0.00%)          csv_handler (const Pchar _filename)
+       170 ( 0.00%)          {
+    23,067 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::table() (17x)
+     3,611 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::list(int) (17x)
+       204 ( 0.00%)              _table = table();
+    23,177 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::table() (17x)
+       102 ( 0.00%)              string_copy(_filename, filename);
+     7,382 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::string_copy(char const*, char*&) (17x)
+        34 ( 0.00%)              fptr = nullptr;
+       102 ( 0.00%)          }
+         .           
+         .                   // open the csv file for importing. the function returns TRUE on success,
+         .                   // and vice versa.
+        75 ( 0.00%)          bool init_read()
+         .                   {
+        30 ( 0.00%)              formal_blank_line_flag = false;
+       195 ( 0.00%)              return (fptr = fopen(filename, "r")) != nullptr;
+     7,117 ( 0.00%)  => ???:0x000000000010a470 (15x)
+        30 ( 0.00%)          }
+         .           
+         .                   // open the csv file for exporting. the function returns TRUE on success,
+         .                   // and vice versa.
+       210 ( 0.00%)          bool init_write()
+         .                   {
+       546 ( 0.00%)              return (fptr = fopen(filename, "w")) != nullptr;
+    19,982 ( 0.01%)  => ???:0x000000000010a470 (42x)
+        84 ( 0.00%)          }
+         .           
+         .                   // import the csv file into the table. default delimiter of csv is comma (,)
+         .                   // but you can provide another at your disposal.
+         .                   // this function terminates the FILE STREAM on completion.
+       165 ( 0.00%)          void read_and_terminate (const Char delim = ',')
+         .                   {
+        60 ( 0.00%)              if (fptr == nullptr)
+         .                           return;
+       120 ( 0.00%)              while (!csv_str.empty())
+       165 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::empty() const (15x)
+         .                           csv_str.pop_back();
+         .                       Char ch;
+         .           
+         .                       // Table head
+         .                       do
+         .                       {
+     2,360 ( 0.00%)                  ch = csv_read_char();
+   203,291 ( 0.08%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::csv_read_char() (590x)
+     1,770 ( 0.00%)                  if (ch == delim)
+       204 ( 0.00%)                      csv_str.pop_back();
+    12,283 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::pop_back() (51x)
+     2,848 ( 0.00%)                  if (ch == delim || ch == '\n')
+       858 ( 0.00%)                      _table.add_key(csv_export_pchar());
+   105,174 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::csv_export_pchar() (66x)
+   366,995 ( 0.15%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_key(Csv::multitype const&) (66x)
+    23,304 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::multitype(char const*) (66x)
+         .                       }
+     1,180 ( 0.00%)              while (ch != '\n');
+         .           
+         .                       // Table rows
+        15 ( 0.00%)              bool flag = true;
+       501 ( 0.00%)              for (Int i = 0; flag; ++i)
+         .                       {
+       441 ( 0.00%)                  _table.add_row();
+ 1,117,784 ( 0.45%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::add_row() (147x)
+       147 ( 0.00%)                  Int j = 0;
+    36,891 ( 0.01%)                  while (j < _table.get_keys().size())
+50,183,879 (20.39%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (3,062x)
+    24,496 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (3,062x)
+         .                           {
+    12,248 ( 0.00%)                      Char ch = csv_read_char();
+ 1,020,535 ( 0.41%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::csv_read_char() (3,062x)
+     6,124 ( 0.00%)                      if (ch == '\0')
+         .                               {
+        15 ( 0.00%)                          flag = false;
+        15 ( 0.00%)                          break;
+         .                               }
+     6,094 ( 0.00%)                      if (ch == '\n')
+         .                               {
+     2,508 ( 0.00%)                          _table.get_row(i).at(j++).assign(csv_export_pchar());
+   145,209 ( 0.06%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::csv_export_pchar() (132x)
+    45,332 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) (132x)
+    20,840 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (132x)
+    12,044 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (132x)
+       132 ( 0.00%)                          break;
+         .                               }
+     8,745 ( 0.00%)                      if (ch == delim)
+         .                               {
+     1,460 ( 0.00%)                          csv_str.pop_back();
+    69,079 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<char>::pop_back() (365x)
+     6,935 ( 0.00%)                          _table.get_row(i).at(j++).assign(csv_export_pchar());
+   389,900 ( 0.16%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::csv_export_pchar() (365x)
+   119,460 ( 0.05%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::assign(char const*) (365x)
+    56,550 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (365x)
+    29,027 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (365x)
+     4,380 ( 0.00%)                          if (j == _table.get_keys().size())
+ 6,422,189 ( 2.61%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (365x)
+     2,920 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (365x)
+         .                                       csv_break_line();
+         .                               }
+         .                           }
+         .                       }
+         .           
+         .                       // Pop trailing invalid rows
+       561 ( 0.00%)              for (Int i = _table.num_rows() - 1; i >= 0; --i)
+       120 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (15x)
+         .                       {
+       147 ( 0.00%)                  bool has_unknown = false;
+     1,323 ( 0.00%)                  list<multitype> _row = _table.get_row(i);
+    23,642 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (147x)
+     6,155 ( 0.00%)                  for (Int j = 0; j < _row.size(); ++j)
+     6,008 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (751x)
+     7,248 ( 0.00%)                      has_unknown |= _row.at(j).is_unknown();
+    50,852 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (604x)
+    31,428 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::is_unknown() const (604x)
+       294 ( 0.00%)                  if (has_unknown)
+       145 ( 0.00%)                      _table.rm_row(i);
+     8,231 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::rm_row(int) (29x)
+         .                       }
+         .           
+        60 ( 0.00%)              terminate();
+     8,995 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::terminate() (15x)
+        90 ( 0.00%)          }
+         .           
+         .                   // export the table to the csv file. default delimiter of csv is comma (,)
+         .                   // but you can provide another at your disposal.
+         .                   // this function terminates the FILE STREAM on completion.
+       462 ( 0.00%)          void write_and_terminate (const Char delim = ',')
+         .                   {
+       168 ( 0.00%)              if (fptr == nullptr)
+         .                           return;
+         .           
+         .                       // Write head
+       378 ( 0.00%)              Int countHeads = _table.get_keys().size();
+   478,053 ( 0.19%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (42x)
+       336 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (42x)
+       846 ( 0.00%)              for (Int i = 0; i < countHeads; ++i)
+       636 ( 0.00%)                  if (i == countHeads - 1)
+       798 ( 0.00%)                      fprintf(fptr, "%s", _table.get_keys().at(i).to_str());
+   479,371 ( 0.19%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (42x)
+     7,980 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (42x)
+     3,846 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (42x)
+     5,924 ( 0.00%)  => ???:0x000000000010a460 (42x)
+         .                           else
+     2,457 ( 0.00%)                      fprintf(fptr, "%s%c", _table.get_keys().at(i).to_str(), delim);
+ 2,208,595 ( 0.90%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_keys() const (117x)
+    88,059 ( 0.04%)  => ???:0x000000000010a4e0 (117x)
+    22,418 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (117x)
+     9,531 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (117x)
+       210 ( 0.00%)              fprintf(fptr, "\n");
+     1,092 ( 0.00%)  => ???:0x000000000010a480 (42x)
+         .           
+         .                       // Write rows
+     4,026 ( 0.00%)              for (Int i = 0; i < _table.num_rows(); ++i)
+     3,984 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::num_rows() const (498x)
+         .                       {
+     3,648 ( 0.00%)                  Int countCols = _table.get_row(i).size();
+    76,640 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (456x)
+     3,648 ( 0.00%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::size() const (456x)
+     8,492 ( 0.00%)                  for (Int j = 0; j < countCols; ++j)
+     6,212 ( 0.00%)                      if (j == countCols - 1)
+     8,664 ( 0.00%)                          fprintf(fptr, "%s", _table.get_row(i).at(j).to_str());
+    89,756 ( 0.04%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (456x)
+    76,640 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (456x)
+    38,984 ( 0.02%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (456x)
+    64,505 ( 0.03%)  => ???:0x000000000010a460 (456x)
+         .                               else
+    23,037 ( 0.01%)                          fprintf(fptr, "%s%c", _table.get_row(i).at(j).to_str(), delim);
+   609,771 ( 0.25%)  => ???:0x000000000010a4e0 (1,097x)
+   212,983 ( 0.09%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::multitype::to_str() const (1,097x)
+   171,038 ( 0.07%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::table::get_row(int) (1,097x)
+    82,199 ( 0.03%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::list<Csv::multitype>::at(int) (1,097x)
+     2,280 ( 0.00%)                  fprintf(fptr, "\n");
+    11,856 ( 0.00%)  => ???:0x000000000010a480 (456x)
+         .                       }
+         .           
+       168 ( 0.00%)              terminate();
+    29,940 ( 0.01%)  => /home/nikola/Desktop/2024_Analysis_Mini-Student-Management-System/Mini-Student-Management-System/include/csv.h:Csv::csv_handler::terminate() (42x)
+       252 ( 0.00%)          }
+         .           
+         .                   // terminate the FILE STREAM.
+       285 ( 0.00%)          void terminate()
+         .                   {
+       228 ( 0.00%)              fclose(fptr);
+    38,251 ( 0.02%)  => ???:0x000000000010a410 (57x)
+       171 ( 0.00%)          }
+         .           
+         .                   // get the table.
+     7,240 ( 0.00%)          table& get_table()
+         .                   {
+     1,810 ( 0.00%)              return _table;
+     3,620 ( 0.00%)          }
+         .                   table get_table() const
+         .                   {
+         .                       return _table;
+         .                   }
+         .               };
+         .           };
+         .           
+         .           #endif // CSV_QUYENJD_H
+-- line 1082 ----------------------------------------
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  ./elf/../sysdeps/generic/dl-new-hash.h
+  ./elf/../sysdeps/x86_64/dl-machine.h
+  ./elf/./elf/dl-lookup.c
+  ./elf/./elf/dl-reloc.c
+  ./elf/./elf/do-rel.h
+  ./libio/./libio/fileops.c
+  ./libio/./libio/getc.c
+  ./libio/./libio/iofflush.c
+  ./libio/./libio/iofwrite.c
+  ./libio/./libio/libioP.h
+  ./libio/./libio/putc.c
+  ./libio/./libio/vsnprintf.c
+  ./malloc/./malloc/arena.c
+  ./malloc/./malloc/malloc.c
+  ./stdio-common/./stdio-common/Xprintf_buffer_done.c
+  ./stdio-common/./stdio-common/Xprintf_buffer_write.c
+  ./stdio-common/./stdio-common/_itoa.c
+  ./stdio-common/./stdio-common/printf-parse.h
+  ./stdio-common/./stdio-common/snprintf.c
+  ./stdio-common/./stdio-common/vfprintf-internal.c
+  ./stdio-common/./stdio-common/vfprintf-process-arg.c
+  ./string/../sysdeps/x86_64/multiarch/../multiarch/strcmp-sse2.S
+  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+  ./string/../sysdeps/x86_64/multiarch/strchr-avx2.S
+  ./string/../sysdeps/x86_64/multiarch/strcmp-avx2.S
+  ./string/../sysdeps/x86_64/multiarch/strlen-avx2.S
+
+--------------------------------------------------------------------------------
+Ir                   
+--------------------------------------------------------------------------------
+103,918,634 (42.22%)  events annotated
+
